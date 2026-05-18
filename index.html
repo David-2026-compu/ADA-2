@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Álbum Favorito</title>
+
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            background-color: #111;
+            color: white;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1{
+            color: #00ff88;
+        }
+
+        p{
+            max-width: 800px;
+            margin: auto;
+            line-height: 1.6;
+        }
+
+        img{
+            width: 500px;
+            max-width: 90%;
+            border-radius: 15px;
+            margin-top: 20px;
+            box-shadow: 0px 0px 20px rgba(0,255,136,0.5);
+        }
+
+        h2{
+            margin-top: 30px;
+            color: #00ff88;
+        }
+
+        ul{
+            list-style: none;
+            padding: 0;
+        }
+
+        li{
+            background-color: #1f1f1f;
+            margin: 10px auto;
+            padding: 10px;
+            width: 300px;
+            border-radius: 10px;
+            transition: 0.3s;
+        }
+
+        li:hover{
+            background-color: #00ff88;
+            color: black;
+            transform: scale(1.05);
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <h1>Mi Álbum Favorito</h1>
+
+    <p>
+        Mi álbum de música favorito es <strong>ADA (Antes de Ameri)</strong>.
+        Es un álbum de trap que para el artista significa que está a punto
+        de llegar a donde quiere. En varias canciones canta sobre cómo fue
+        su proceso en la música, desde las batallas de freestyle hasta llegar
+        a los conciertos y llenar estadios como el Santiago Bernabéu.
+    </p>
+
+    <img src="https://i.ytimg.com/vi/Bh0rSHiOk7U/maxresdefault.jpg" alt="Álbum ADA">
+
+    <h2>Mis canciones favoritas</h2>
+
+    <ul>
+        <li>01 de Enero</li>
+        <li>Jefes del Sudoeste</li>
+        <li>Don't Lie</li>
+        <li>Troya</li>
+        <li>N.C.L.C</li>
+        <li>GIGI</li>
+        <li>UnO DoS</li>
+        <li>Rockstar 2.0</li>
+        <li>Harakiri</li>
+        <li>Remember Me</li>
+        <li>CSipher</li>
+    </ul>
+
+</body>
+</html>
